@@ -1,0 +1,76 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Nov 20 18:05:58 2017
+
+@author: dcockbur
+"""
+replacereaddic = {
+        'Read write': 'Literate',
+        'Read and write': 'Literate',
+        'Read and Write': 'Literate',
+        'Read And Write': 'Literate',
+        'Can read and write': 'Literate',
+        'Read only': 'Literate',
+        'Read':'Literate',
+        'Cannot read':'Illiterate',
+        'Cannot read or write':'Illiterate'
+}
+
+replacedic = {
+        'Roman Catholic':'Catholic',
+        'R Catholic':'Catholic',
+        'Roman C':'Catholic',
+        'R C':'Catholic',
+        'R C Church':'Catholic',
+        'Catholics':'Catholic',
+        'Catholick':'Catholic',
+        'Catholic Church':'Catholic',
+        'Catholic Religion':'Catholic',
+        'Holy Roman Catholic': 'Catholic',
+        'Roman Catholic Church': 'Catholic',
+        'Catholic Roman':'Catholic',
+        'Church of Rome':'Catholic',
+        'Irish Catholic':'Catholic',
+        'Church of Ireland': 'Anglican',
+        'Church Of Ireland': 'Anglican',
+        'Curch of Ireland': 'Anglican',
+        'The Church of Ireland': 'Anglican',
+        'Irish Church': 'Anglican',
+        'Ch of Ireland': 'Anglican',
+        'C of Ireland': 'Anglican',
+        'Church of England': 'Anglican',
+        'C of E': 'Anglican',
+        'Protestant Church of England': 'Anglican',
+        'Protestant Church of Ireland': 'Anglican',
+        'Church of Ireland Protestants': 'Anglican',
+        'Protestant Irish Church': 'Anglican',
+        'Church Ireland': 'Anglican',
+        'The Church Ireland': 'Anglican',
+        'Church of Ireland Protestant': 'Anglican',
+        'Protestant': 'Anglican',
+        'Presbyterian Church':'Presbyterian',
+        'Presbyterian Church':'Presbyterian',
+        'Presbyterians':'Presbyterian',
+        'Presbytrian':'Presbyterian',
+        'Presbterian':'Presbyterian',
+        'Prespterian':'Presbyterian',
+        'Presby':'Presbyterian',
+        'Pres':'Presbyterian',
+        'Prespyterian':'Presbyterian',
+        'Reformed Presbyterian':'Presbyterian',
+        'Brethern':'Brethren',
+        'Christian Brethren':'Brethren',
+        'Christian Brethern':'Brethren',
+        'Congregational':'Congregationalist',
+        'Wesleyan Methodist':'Methodist',
+        'Methodist Church':'Methodist',
+        'Moravian Church':'Moravian',
+        'Episcopal Church':'Episcopal',
+        'Episcopal ':'Episcopal',
+        'Society of Friends':'Quaker',
+        'Hebrew':'Jewish',
+        'Jew':'Jewish',
+        'Jewess':'Jewish',
+        }
+
+nonprodlist = ['Catholic','Jewish', 'Muslim']
